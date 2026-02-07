@@ -13,7 +13,7 @@ st.set_page_config(page_title="StockValue AI", page_icon="📈", layout="wide")
 st.markdown("""
 <style>
     /* Clean UI Overrides */
-    .stApp { background-color: #0B6623; }
+    .stApp { background-color: #0E1117; }
     
     /* BIG VERDICT BANNERS */
     .verdict-box {
@@ -271,4 +271,5 @@ else:
         email = st.text_input("Enter email for top 5 picks:", placeholder="you@example.com")
         if st.button("Subscribe Free"):
             st.success("Thanks! You are on the list.")
+
 
